@@ -1,7 +1,6 @@
 import React from "react";
-
 import Home from "./Pages/Home";
-import About from "./Pages/About";
+
 
 
 
@@ -16,9 +15,7 @@ function App() {
       <div> home page start</div>
       <Home Companydata={company} aboutdata={about} addressdata={address} />
       <div>about page start</div>
-      <About />
       <div>contact page start</div>
-      <contact />
     </React.Fragment >)
 }
 
